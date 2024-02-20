@@ -1,0 +1,483 @@
+*{
+    margin: 0%;
+    padding: 0%;
+   
+}
+body{
+    font-family: sans-serif;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    
+}
+     /*   nav bar section    */
+.navbar{
+   width: 100%;
+    background-color: rgb(26, 25, 25);
+    background-size: cover;
+   
+    width: 100%;
+    height: 60px;
+    justify-content: center;
+    text-align: center;
+    li{
+        list-style: none; 
+         display: inline-block;
+         padding: 2px;
+         padding-right: 25px;
+         margin-top: 10px;
+        }
+        a{
+            text-decoration: none;
+            color: white;
+            font-size: 14px;
+        }
+        a:hover{
+            cursor: pointer;
+            text-decoration: underline;
+        }
+}
+  /* second section iphone bg */
+
+  .container-1{
+    width: 100%;
+    height: 500px;
+    background-image: url(iphone\ bg11.jpg);
+    background-size: cover;
+    color: white;
+    .text-container{
+        position: relative;
+        left: 35%;
+        top: 10%;
+        h1{
+            position: relative;
+            font-size: 50px;
+        }
+        p{
+            font-size: 25px;
+            position: relative;
+            right: 30px;
+
+        }
+        a{
+            font-size: 19px;
+            font-weight: 500px;
+            position: relative;
+            left: 45px;
+            text-decoration: none;
+            color: blue;
+
+        }
+        a:hover{
+            text-decoration: underline;
+            cursor: pointer;
+          }
+    }
+  }
+   /* third section iphone bg */
+  .container-2{
+    width: 100%;
+    position: relative;
+    top: 10px;
+    /* width: 1150px; */
+    height: 500px;
+    background-image: url(iphone\ 2\ bg\ 11.jpg);
+    background-size: cover;
+    color: rgb(0, 0, 0);
+    .text-container{
+        position: relative;
+        left: 35%;
+        top: 9%;
+        h1{
+            position: relative;
+            font-size: 50px;
+             left: 40px;
+
+        }
+        p{
+            font-size: 25px;
+            position: relative;
+            right: 30px;
+        }
+        a{
+            font-size: 19px;
+            font-weight: 500px;
+            position: relative;
+            left: 45px;
+            text-decoration: none;
+            color: blue;
+        }
+        a:hover{
+            text-decoration: underline;
+            cursor: pointer;
+          }
+    }
+  }
+   /* four section girls bg */
+  .container-3{
+    width: 100%;
+    position: relative;
+    top: 20px;
+    /* width: 1150px; */
+    height: 690px;
+    background-image: url(girls\ img\ 544.jpg);
+    background-size: cover;
+    color: rgb(0, 0, 0);
+    .text-container{
+        position: relative;
+        left: 35%;
+        top: 75%;
+        h1{
+            position: relative;
+            font-size: 50px;
+             left: 40px;
+
+        }
+        p{
+            font-size: 25px;
+            position: relative;
+            right: 30px;
+        }
+        a{
+            font-size: 19px;
+            font-weight: 500px;
+            position: relative;
+            left: 70px;
+            text-decoration: none;
+            color: blue;
+        }
+        a:hover{
+            text-decoration: underline;
+            cursor: pointer;
+          }
+    }
+  }
+ 
+     /* five section wathch & tv bg */
+
+  .container-4{
+    width: 100%;
+      position: relative;
+      top: 30px;   
+      /* width: 1150px; */
+      display: flex; 
+      background-color: white;
+      height: 600px;
+      gap: 10px;
+      .photo-1{
+        width: 50%;
+           background-image: url(watch\ 11.jpg);
+           background-size: cover;
+           color: white;
+           justify-content: center;
+           text-align: center;
+           h1{
+            position: relative;
+            font-size: 30px;
+             top: 50px;
+
+        }
+        h5{
+            font-size: 20px;
+            position: relative;
+            top: 60px;
+            right: 5px;
+            left: 10px; 
+        }
+        p{
+            font-size: 15px;
+            color: red;
+            position: relative;
+            left: 15px;
+            top: 50px;
+        }
+        a{
+            font-size: 18px;
+            font-weight: 500px;
+            position: relative;
+            /* left: 40px; */
+            text-decoration: none;
+            top: 65px;
+            color: blue;
+        }
+        a:hover{
+            text-decoration: underline;
+            cursor: pointer;
+          }
+      }
+      .photo-2{
+        width: 50%;
+        background-image: url(tv\ 11.jpg);
+        background-size: cover;
+        justify-content: center;
+        text-align: center;
+        h1{
+            position: relative;
+            font-size: 35px;
+             top: 60px;
+             left: 10px;
+
+        }
+        p{
+            font-size: 23px;
+            position: relative;
+            left: 15px;
+            top: 65px;
+        }
+        a{
+            font-size: 18px;
+            font-weight: 500px;
+            position: relative;
+            /* left: 40px; */
+            text-decoration: none;
+            top: 75px;
+            color: blue;
+        }
+        a:hover{
+            text-decoration: underline;
+            cursor: pointer;
+          }
+   }
+  }
+  
+     /* six section wathch & tv bg */
+
+     .container-5{
+        width: 100%;
+        position: relative;
+         top: 40px;
+        /* width: 1150px; */
+        display: flex; 
+        background-color: white;
+        height: 600px;
+        gap: 10px;
+        .photo-3{
+          width: 50%;
+             background-image: url(ipad\ 11.jpg);
+             background-size: cover;
+             color: rgb(8, 8, 8);
+             justify-content: center;
+             text-align: center;
+             h1{
+              position: relative;
+              font-size: 40px;
+               top: 50px;
+  
+          }
+          p{
+              font-size: 23px;
+              color: rgb(0, 0, 0);
+              position: relative;
+              left: 15px;
+              top: 55px;
+             
+          }
+          a{
+              font-size: 18px;
+              font-weight: 500px;
+              position: relative;
+              left: 35px;
+              text-decoration: none;
+              top: 65px;
+              color: blue;
+          }
+          a:hover{
+              text-decoration: underline;
+              cursor: pointer;
+            }
+        }
+        .photo-4{
+          width: 50%;
+          background-image: url(airpods\ 11.jpg);
+          background-size: cover;
+          justify-content: center;
+          text-align: center;
+          color: white;
+          h1{
+              position: relative;
+              font-size: 35px;
+               top: 60px;
+               left: 10px;
+  
+          }
+          p{
+              font-size: 23px;
+              position: relative;
+              left: 15px;
+              top: 65px;
+          }
+          a{
+              font-size: 18px;
+              font-weight: 500px;
+              position: relative;
+              /* left: 40px; */
+              text-decoration: none;
+              top: 75px;
+              color: blue;
+          }
+          a:hover{
+              text-decoration: underline;
+              cursor: pointer;
+            }
+     }
+    }
+ /* six section wathch & tv bg */
+
+ .container-6{
+    width: 100%;
+    position: relative;
+    top: 50px;
+    /* width: 1150px; */
+    display: flex; 
+    background-color: white;
+    height: 600px;
+    gap: 10px;
+    .photo-5{
+      width: 50%;
+         background-image: url(card\ 11.jpg);
+         background-size: cover;
+         color: rgb(8, 8, 8);
+         justify-content: center;
+         text-align: center;
+         h1{
+          position: relative;
+          font-size: 40px;
+           top: 50px;
+
+      }
+      p{
+          font-size: 23px;
+          color: rgb(0, 0, 0);
+          position: relative;
+          left: 15px;
+          top: 55px;
+         
+      }
+      a{
+          font-size: 18px;
+          font-weight: 500px;
+          position: relative;
+          left: 35px;
+          text-decoration: none;
+          top: 65px;
+          color: blue;
+      }
+      a:hover{
+          text-decoration: underline;
+          cursor: pointer;
+        }
+    }
+    .photo-6{
+      width: 50%;
+      background-image: url(phone\ 11.jpg);
+      background-size: cover;
+      justify-content: center;
+      text-align: center;
+      color: rgb(14, 14, 14);
+      h1{
+          position: relative;
+          font-size: 35px;
+           top: 60px;
+           left: 10px;
+
+      }
+      p{
+          font-size: 20px;
+          position: relative;
+          left: 15px;
+          top: 65px;
+      }
+      a{
+          font-size: 18px;
+          font-weight: 500px;
+          position: relative;
+          left: 30px;
+          text-decoration: none;
+          top: 75px;
+          color: blue;
+      }
+      a:hover{
+          text-decoration: underline;
+          cursor: pointer;
+        }
+ }
+}
+/* scroll images section */
+.scroll-container{
+    width: 100%;
+    display: flex;
+   position: relative;
+   top: 65px;
+   /* width: 1150px; */
+   border: 1px solid white;
+   border-radius: 10px;
+   overflow: auto;
+   scroll-snap-type: x-mandatory;
+   gap: 10px;
+   img{
+   
+       height: 400px;
+       width: 900px;
+       object-fit: cover;
+       scroll-snap-align: start;
+       /* flex-shrink: 0; */
+       
+   }
+}
+ /*  footer section */
+footer{
+    width: 100%;
+    height: 500px;
+    position: relative;
+    top: 80px;
+
+    .foot-1{
+        width: 80%;
+        position: relative;
+        top: 10px;
+        left: 80px;
+    }
+    .foot-2{
+        display: flex;
+        position: relative;
+        top: 30px;
+        left: 80px;
+        gap: 50px;
+        h6{
+            font-size: 15px;
+           
+        }
+        li{
+            list-style: none;
+            
+        }
+        a{
+            color: black;
+            text-decoration: none;
+           
+        }
+        a:hover{
+            cursor: pointer;
+            text-decoration: underline;
+        }
+    }
+    p{
+        position: relative;
+        top: 10px;
+        left: 80px;
+    }
+    .Copyright{
+        height: 40px;
+        display: flex;
+        gap: 80px;
+        a{
+            text-decoration: none;
+            color: black;
+        }
+        a:hover{
+            cursor: pointer;
+            text-decoration: underline;
+        }
+    }
+}
+
